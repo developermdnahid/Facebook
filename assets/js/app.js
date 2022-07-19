@@ -72,7 +72,7 @@ post_form.onsubmit = (e) => {
   if( !aname || !aphoto || !pcontent ){
     msg.innerHTML = setAlert('All fields are required!!');
   }else{
-    msg.innerHTML = setAlert('Post successfully done!!' , success);
+    msg.innerHTML = setAlert('Post Succesfull!!' , 'success');
     createLSData('fb_post' , data );
     e.target.reset();
     getAllPosts();
